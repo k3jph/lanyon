@@ -1,0 +1,128 @@
+/*
+ * Built on top of Lanyon...
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Masthead
+ * Sidebar
+ * Slide effect
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+/* Quotes */
+blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  padding-left: 60%;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  max-width: 40rem;
+}
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead-title small {
+  font-size: 60%;
+  color: #606060;
+}
+
+/*
+ * Themes
+ *
+ * Apply custom color schemes by adding the appropriate class to the `body`.
+ * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
+ */
+
+/* JH Red */
+.theme-base-jhred .sidebar,
+.theme-base-jhred .sidebar-toggle:active,
+.theme-base-jhred #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #871717;
+}
+.theme-base-jhred .container a,
+.theme-base-jhred .sidebar-toggle,
+.theme-base-jhred .related-posts li a:hover {
+  color: #871717;
+}
+
+.images-caption {
+  font-size: 75%;
+  font-weight: 400;
+  color: #606060;
+  letter-spacing: 0;
+}
+
+/*
+ * Social Icons
+ */
+
+.social-icon {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  clear: both;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.social-icon li {
+  display: inline-block;
+}
+
+.social-icon li a {
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 6px 0;
+  margin: 2px;
+  color: #ffffff;
+  border-radius: 10%;
+  font-size: 1em;
+}
+
+.social-icon li a:hover {
+  text-decoration: none;
+}
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
