@@ -2,8 +2,9 @@
 title:               'Dr. James Howard'
 tagline:             'A Mathematician, a Different Kind of Mathematician, and a Statistician'
 description:         'A Mathematician, a Different Kind of Mathematician, and a Statistician'
-url:                 'https://k3jph.github.io'
-baseurl:             '/'
+url:                 ''
+baseurl:             ''
+twitter_username:    'k3jph'
 
 # About/contact
 author:
@@ -15,12 +16,21 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
-
+  - jekyll-scholar
+  - jekyll/footnotes
+  
 # Pagination
 paginate:            10
 permalink:           pretty
-paginate_path:       '/blog/page:num/'
+paginate_path:       '/blog/page/:num/'
 
 # Custom vars
 version:             1.1.0
 google_analytics_id: UA-79581-8
+
+# Scholar settings
+scholar:
+  style: mla
+
+# Iframely!
+iframely-key:       176ff6184ababb980170f6037497fb6a

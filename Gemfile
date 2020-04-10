@@ -4,4 +4,6 @@ gem "jekyll"
 gem "jekyll-gist"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
-gem 'jekyll-redirect-from'
+gem "jekyll-redirect-from"
+gem "jekyll-scholar"
+gem "jekyll-footnotes"
